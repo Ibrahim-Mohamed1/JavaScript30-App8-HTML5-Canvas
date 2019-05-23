@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    background-color: black;
+  }
+  .span{
+    font-size: 30px;
+    margin-left: 10px;
+    color: cyan;
+    }
+    a{
+    text-decoration-color: cyan;
+}
+.warning{
+    display: none;
+    color: white;
+}
+.draw{
+    border: white solid;
+    width: 98%;
+    min-height: 100vh;
+    display: block;
+    margin: auto;
+}
+.title{
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+@media(max-width: 400px){
+    .warning{
+        display: block;
+        color:white;
+        margin: 1em 5px;
+        text-align: center;
+        padding: 5px;
+    }
+    .draw{
+        display: none;
+    }
+    .title{
+        display: none;
+    }
+}
